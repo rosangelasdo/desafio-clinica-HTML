@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li id="opcao"><a href="index.html">Página Principal</a></li>
+                <li id="sobre"><a href="sobre.html">Sobre nós</a></li>
+                <li id="horario"><a href="horarios.html">Nossos horários</a></li>
+                <li id="contato"><a href="contato.html">Contato</a></li>                
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">                
+                <!-- Cabeçalho -->
+                <img src="img-contato.png" height="200" width="1000" />
+    
+            </div>
+
+            <div class="content">
+                <!-- Telefones e Endereço -->
+                <p>Celular: (081)-9890-4545 <mark>Whatsapp:</mark> (81) 9-9890-4040</p>
+                <p></p>
+                <p>Endereço: Rua Aderval Chaves, 144 Boa Viagem - Recife - Pernambuco - CEP 51111-030</p>
+
+                <!-- Google Maps -->
+                <iframe 
+                    width="560" height=300
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.938303982012!2d-34.89265296569225!3d-8.107764882397932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0946650a8b%3A0x2689801b57a79021!2sCondom%C3%ADnio%20do%20Edf%20Chateau%20La%20Tour%20-%20R.%20Jos%C3%A9%20Aderval%20Chaves%2C%20144%20-%20Boa%20Viagem%2C%20Recife%20-%20PE%2C%2051111-030!5e0!3m2!1spt-BR!2sbr!4v1667342764843!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>   
+                <br>
+                <!-- Formulário de Contato -->
+                <p></p>
+                <legend> <strong>Fale conosco:</strong></legend>
+
+                
+                <form   id="contatos" method="post"> 
+                    <fieldset>
+                        <label>Nome:   </label>  <input type="text"> <br>                                                             
+                        <label>E-mail: </label>  <input type="email"> <br>
+                        <label>Assunto:</label>  <input type="text"> <br>
+                        <label>Mensagem:</label> <textarea name="message"></textarea> <br>
+                        <button name="enviar" type="submit"> Enviar</button>
+                        <button name="limpar" type="reset"> Limpar</button>
+                    </fieldset>
+                </form>
+               
+            </div>
+
+            <div class="footer">
+                 <!-- Rodapé -->
+                <p></p>
+                <p> <strong>  Endereço:</strong> Rua Aderval Chaves 144 Boa Viagem - 
+                        Recife - Pernambuco - CEP 51111-030</p>
+                <p></p>
+                <strong>  Responsável Técnico:</strong>  Doutora <u>Joana Amorosa Falcão</u>                  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
